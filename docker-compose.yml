@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  localstack:
+    image: localstack/localstack:3.2
+    ports:
+      - "4566:4566"
+      - "4510-4559:4510-4559"
+    environment:
+      - SERVICES=s3,iam,secretsmanager,sts,lambda
+      - DATA_DIR=/var/lib/localstack
+      - DEBUG=1
+    volumes:
+      - ./localstack-data:/var/lib/localstack
+      - ./init-scripts:/etc/localstack/init/ready.d
+      - ./fsecss-bucket:/tmp/fsecss-bucket
+      - ./creds:/tmp/creds
+      - ./lambda-code:/tmp/lambda-code
+      - /var/run/docker.sock:/var/run/docker.sock
