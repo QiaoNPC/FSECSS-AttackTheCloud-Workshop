@@ -28,8 +28,8 @@ In this workshop, you will learn how to identify and exploit real-world flaws in
 Clone this repo:
 
 ```bash
-git clone https://github.com/YOUR_REPO/awsnap-workshop.git
-cd awsnap-workshop
+git clone https://github.com/QiaoNPC/FSECSS-AttackTheCloud-Workshop.git
+cd FSECSS-AttackTheCloud-Workshop
 sudo docker compose up
 ```
 
