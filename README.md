@@ -30,6 +30,21 @@ Clone this repo:
 ```bash
 git clone https://github.com/QiaoNPC/FSECSS-AttackTheCloud-Workshop.git
 cd FSECSS-AttackTheCloud-Workshop
-sudo docker compose up
+chmod +x init-scripts/*
+sudo docker-compose up
 ```
 
+---
+
+## 🏹 Labs
+
+| Lab | Topic                         | Link                |
+|-----|-------------------------------|---------------------|
+| 1   | Insecure S3 Buckets            | [labs/lab1](labs/lab1) |
+| 2   | Bucket Versioning              | [labs/lab2](labs/lab2) |
+| 3   | Secrets Manager                | [labs/lab3](labs/lab3) |
+| 4   | Lambda Functions               | [labs/lab4](labs/lab4) |
+
+---
+
+Happy hacking! 🎯  
