@@ -34,6 +34,14 @@ chmod +x init-scripts/*
 sudo docker-compose up
 ```
 
+Generated credentials will be saved in: `./creds/workshop.txt`
+
+---
+
+## 🛠️ AWS CLI Command Builder
+
+You can use the AWS CLI Command Builder to help construct commands during the workshop: [AWS Command Builder](https://chai-cheng-xun.web.app/aws-command-builder)
+
 ---
 
 ## 🏹 Labs
