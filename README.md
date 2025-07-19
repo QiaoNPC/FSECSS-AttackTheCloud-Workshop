@@ -13,13 +13,16 @@ In this workshop, you will learn how to identify and exploit real-world flaws in
 
 ## 🚀 Workshop Setup
 
-- [Docker & Docker Compose](https://malfunction-grinds.medium.com/how-to-install-docker-and-docker-compose-on-kali-linux-2ecd69c67ee9)
 - [Kali Linux](https://www.kali.org/)
 - AWS CLI (`awscli`)  
   Install:  
   ```bash
   sudo apt install awscli
   ```
+ - Install Docker and Docker-Compose
+  ```bash
+  sudo apt install docker.io docker-compose
+  ``` 
 
 ---
 
