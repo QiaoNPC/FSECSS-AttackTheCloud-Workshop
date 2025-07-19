@@ -20,9 +20,9 @@ In this workshop, you will learn how to identify and exploit real-world flaws in
   sudo apt install awscli
   ```
  - Install Docker and Docker-Compose
-  ```bash
-  sudo apt install docker.io docker-compose
-  ``` 
+    ```bash
+    sudo apt install docker.io docker-compose
+    ``` 
 
 ---
 
